@@ -1,3 +1,3 @@
-var posts=["2024/05/12/hello-world/","2024/05/13/博客更新！欢迎光临！/","2024/05/14/新的Bing镜像！秒过人机验证！/"];function toRandomPost(){
+var posts=["2024/05/13/博客更新！欢迎光临！/","2024/05/14/新的Bing镜像！秒过人机验证！/","2024/05/15/GPT-4o震撼发布！Plus功能免费！/","2024/05/15/Arc浏览器！为取代Chrome而生/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
